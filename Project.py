@@ -18,3 +18,6 @@ dataframe1 = pd.read_excel(excel_file)
 
 print(dataframe1)
 
+#get the top 5 rows in the file
+top_data = dataframe1.head()
+top_data
